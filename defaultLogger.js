@@ -5,13 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 /* eslint-disable no-console */
 exports.default = {
-  info: function info(msg) {
-    return console.info(msg);
-  },
-  warn: function warn(msg) {
-    return console.warn(msg);
-  },
-  error: function error(msg) {
-    return console.error(msg);
-  }
+  info: msg => console.info(msg),
+  warn: msg => console.warn(msg),
+  error: msg => console.error(msg)
 };

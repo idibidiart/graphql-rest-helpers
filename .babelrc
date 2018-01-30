@@ -1,6 +1,8 @@
 {
     "plugins": [
-      "babel-plugin-inline-import"
+      "transform-es2015-modules-commonjs",
+      "transform-class-properties",
+      "syntax-object-rest-spread"
     ],
-    "presets": ["es2015", "stage-2"]
+    "presets": ["stage-3"]
 }

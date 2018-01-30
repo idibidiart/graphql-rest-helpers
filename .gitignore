@@ -7,4 +7,5 @@
 # Don’t include the built files
 /GraphQLConnector.js
 /GraphQLModel.js
+/defaultLogger.js
 /index.js
