@@ -2,5 +2,5 @@
     "plugins": [
       "babel-plugin-inline-import"
     ],
-    "presets": ["stage-2"]
+    "presets": ["es2015", "stage-2"]
 }

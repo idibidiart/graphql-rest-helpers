@@ -1,6 +1,6 @@
 {
   "name": "graphql-rest-helpers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fork of REST helper classes for GrAMPS GraphQL data sources.",
   "main": "index.js",
   "repository": "https://github.com/idibidiart/rest-helpers.git",
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "dataloader": "^1.3.0",
-    "request": "^2.83.0", 
+    "request": "^2.83.0",
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
@@ -27,6 +27,7 @@
     "babel-jest": "^21.2.0",
     "babel-plugin-inline-import": "^2.0.6",
     "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "eslint": "^4.2.0",
     "eslint-config-airbnb-base": "^12.0.2",
