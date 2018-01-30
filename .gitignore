@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-.DS*
-node_modules
+**/.DS_Store
+**/node_modules
 *.log
 .vscode
 
@@ -9,10 +8,3 @@ node_modules
 /GraphQLConnector.js
 /GraphQLModel.js
 /index.js
-
-# Testing directories
-coverage
-=======
-**/node_modules
-.DS_Store
->>>>>>> removed gramps/errors and caching, and fixed issue with 'request' module for non-http error object type
