@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .DS*
 node_modules
 *.log
@@ -11,3 +12,7 @@ node_modules
 
 # Testing directories
 coverage
+=======
+**/node_modules
+.DS_Store
+>>>>>>> removed gramps/errors and caching, and fixed issue with 'request' module for non-http error object type
