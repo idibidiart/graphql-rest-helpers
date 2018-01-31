@@ -1,6 +1,6 @@
 {
   "name": "graphql-rest-helpers",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "Fork of REST helper classes for GrAMPS GraphQL data sources.",
   "main": "index.js",
   "repository": "https://github.com/idibidiart/rest-helpers.git",
@@ -22,12 +22,12 @@
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
-    "babel-cli": "*",
-    "babel-core": "*",
-    "babel-plugin-transform-es2015-modules-commonjs": "*",
-    "babel-plugin-transform-class-properties": "*",
-    "babel-plugin-syntax-object-rest-spread": "*",
-    "babel-preset-stage-3": "*",
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.0.0",
+    "babel-plugin-transform-class-properties": "^6.0.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.0.0",
+    "babel-preset-stage-3": "^6.0.0",
     "nodemon": "^1.11.0",
     "prettier": "^1.5.3",
     "semantic-release": "^8.2.0"
