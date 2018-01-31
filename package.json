@@ -1,6 +1,6 @@
 {
   "name": "graphql-rest-helpers",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Fork of REST helper classes for GrAMPS GraphQL data sources.",
   "main": "index.js",
   "repository": "https://github.com/idibidiart/rest-helpers.git",
