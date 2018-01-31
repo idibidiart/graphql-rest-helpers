@@ -44,7 +44,6 @@ export default class GraphQLConnector {
           const data = response.body;
           resolve(data)
         })
-        .then(response => !hasCache && resolve(response))
         .catch(error => {
           // resolve here and handle errors higher up so Promise.all 
           // is not cut short due to promise rejection
