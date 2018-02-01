@@ -46,15 +46,8 @@ export default class GraphQLConnector {
         })
         .catch(error => {
           // resolve here and handle errors higher up so Promise.all 
-          // is not cut short due to promise rejection
-          // 
-          // Serializing the error object is a workaround 
-          // for 'request' module issue for non-HTTP network errors e.g. 
-          // ECONNREFUSED, which seem to come in as Buffer objects for 
-          // HTTPS socket failures causing loss of some error data
-          // Could be wrong but this was needed to get 'options' and 
-          // 'error' nodes 
-          resolve(JSON.parse(JSON.stringify(error)))
+          // is not interrupted due to promise rejection
+          resolve(error)
         });
     });
 
