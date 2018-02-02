@@ -47,6 +47,13 @@ export default class GraphQLConnector {
         .catch(error => {
           // resolve here and handle errors higher up so Promise.all 
           // is not interrupted due to promise rejection
+          //
+          // The 'request' module is good about adding these fields even
+          // if server returns HTTP error 500 and html error message
+          // but just in case the logger or other things in the promise 
+          // resolve handler throws an exception and we end up here
+          error.error = error.error || {}
+          error.options = error.options || {url: uri}
           resolve(error)
         });
     });
